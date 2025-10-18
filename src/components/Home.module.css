@@ -1,1 +1,124 @@
-.container {}
+.container {
+  text-align: left;
+  font-weight: normal;
+  background-color: black;
+  color: white;
+}
+
+.intro {
+  padding-top:17em;
+  padding-bottom:10em;
+  padding-left: 10em;
+  padding-right: 50em;
+  text-align: left;
+
+  font-size: 1em;
+  background-image: url("src/images/home1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.intro h1{
+  font-size: 4em;
+  font-weight: normal;
+}
+.intro h3{
+  font-size: 1.5em;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ourcoffee {
+  padding-top:3em;
+  padding-bottom:10em;
+  padding-left: 10em;
+  padding-right: 25em;
+  text-align: left;
+  font-size: 1em;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ourcoffee_text {
+  width: 45%;
+}
+
+.ourcoffee_images{
+  width: 40%;
+  display: grid;
+  grid-template-columns: 0fr 0fr;
+  gap: 0.3em;
+}
+
+.ourcoffee img {
+  width:300px;
+  height:300px;
+ 
+}
+
+.ourfood {
+  padding-top:3em;
+  padding-bottom:10em;
+  padding-left: 10em;
+  padding-right: 10em;
+  text-align: left;
+  font-size: 1em;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ourfood_text {
+  width: 35%;
+  text-align: left;
+}
+
+.ourfood_images{
+  width: 40%;
+  display: grid;
+  grid-template-columns: 0fr 0fr;
+  gap: 0.3em;
+}
+
+.ourfood img {
+  width:300px;
+  height:300px;
+ 
+}
+
+main {
+  padding: 1rem 12em;
+}
+
+.hero {
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #555;
+}
+
+
+button {
+  display: inline-block;
+  padding: 0.7rem 0.9rem;
+  font-size: 1em;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}

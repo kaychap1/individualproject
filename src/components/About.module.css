@@ -1,1 +1,42 @@
-.container {}
+.container {
+  padding: 12rem 10rem;
+  text-align: center;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  font-size:1.2em;
+  width:60%;
+}
+
+.aboutContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.aboutContent p {
+  width: 50%;
+  text-align: left;
+
+}
+
+
+.aboutContent img {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem; /* Adds space between the two cards */
+}
+
+.community, .mission {
+  text-align:left;
+  padding: 0rem;
+  margin-bottom: 2rem;
+  width: calc(50% - 1rem); /* Adjust width to account for the gap */
+}

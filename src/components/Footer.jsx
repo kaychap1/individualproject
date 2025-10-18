@@ -1,29 +1,53 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
+import Wrapper from './Wrapper';
 
-const Header = () => {
+const Footer = () => {
   return (
-    <header className={styles.header}>
-        <h4>Ghost Coffee</h4>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact Us</Link>
-          </li>
-          <li>
-            <Link to="/blog">Blog</Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <Wrapper>
+      <footer className={styles.footer}>
+        <nav>
+          <div>
+            <Link to = "/"><img src="src/images/footerlogo.png" alt="logo" /></Link>
+            <a href="https://www.facebook.com/GH0STL1fe"><img src="src/images/footerfb.png" alt="fb" /></a>
+            <a href="https://www.instagram.com/ghostcoffeeroaster/"><img src="src/images/footerig.png" alt="ig" /></a>
+          </div>
+          <div>
+            <p>
+              Monday - Friday: 7:30am - 5pm <br />
+              Saturday - Sunday: 8am - 5pm <br />
+            </p>
+            <p>
+              Email:
+              <a href="mailto:ghostcoffeeroaster@gmail.com">ghostcoffeeroaster@gmail.com</a>
+            </p>
+            <p>
+              Address:
+              <a href="https://maps.app.goo.gl/Tv46PnWUij6rQQ5o6">750 Stadium Ave, West Lafayette, IN 47906</a>
+            </p>
+          </div>
+          <div>
+            <h4>Site Map</h4>
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact</Link>
+              </li>
+              <li>
+                <Link to="/blog">Blog</Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </footer>
+    </Wrapper>
   );
 };
 
-export default Header;
+export default Footer;
