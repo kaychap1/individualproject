@@ -1,0 +1,39 @@
+.card {
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  padding: 1.5rem;
+  text-align: left;
+  padding-top:17em;
+  padding-bottom:10em;
+  padding-left: 10em;
+  padding-right: 50em;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width:20em;
+  height:20em;
+
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color:white;
+}
+
+.card p {
+  margin: 0;
+  color: white;
+}
