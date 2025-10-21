@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
+import logo from '../images/logo.png';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -23,7 +24,7 @@ const Header = () => {
 
   return (
     <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
-      <Link to="/"><img src="src/images/logo.png" alt="logo" /></Link>
+      <Link to="/"><img src={logo} alt="logo" /></Link>
       <div className={styles.titleContainer}>
         <h1>G H O S T</h1>
         <h2>COFFEE ROASTERS</h2>
