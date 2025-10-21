@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
 import Wrapper from './Wrapper';
+import footerLogo from '../images/footerlogo.png';
+import footerFb from '../images/footerfb.png';
+import footerIg from '../images/footerig.png';
 
 const Footer = () => {
   return (
@@ -9,9 +12,9 @@ const Footer = () => {
       <footer className={styles.footer}>
         <nav>
           <div>
-            <Link to = "/"><img src="src/images/footerlogo.png" alt="logo" /></Link>
-            <a href="https://www.facebook.com/GH0STL1fe"><img src="src/images/footerfb.png" alt="fb" /></a>
-            <a href="https://www.instagram.com/ghostcoffeeroaster/"><img src="src/images/footerig.png" alt="ig" /></a>
+            <Link to = "/"><img src={footerLogo} alt="logo" /></Link>
+            <a href="https://www.facebook.com/GH0STL1fe"><img src={footerFb} alt="fb" /></a>
+            <a href="https://www.instagram.com/ghostcoffeeroaster/"><img src={footerIg} alt="ig" /></a>
           </div>
           <div>
             <p>
